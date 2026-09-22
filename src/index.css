@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  /* Overriding Teal to map to the custom requested Blue (#43b6e6) */
+  --color-teal-50: #f4fcff;
+  --color-teal-100: #e0f6fc;
+  --color-teal-200: #c2ecf9;
+  --color-teal-300: #93def5;
+  --color-teal-400: #5ec8f2;
+  --color-teal-500: #4ec2ef;
+  --color-teal-600: #43b6e6;
+  --color-teal-700: #2ca2d4;
+  --color-teal-800: #2385b0;
+  --color-teal-900: #1b6c91;
+  --color-teal-950: #124660;
+}
+
